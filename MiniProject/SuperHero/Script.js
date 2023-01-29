@@ -1,12 +1,12 @@
-let HeroName = document.getElementById('superHeroName');
-let submit = document.getElementById('submitbtn');
-let results = document.getElementById('result');
+let HeroName = document.getElementById('#superHeroName');
+let submit = document.getElementById('#submitbtn');
+let results = document.getElementById('#result');
 let superHeroDetails = document.getElementById('superHeroDetails');
 
 let superheros= JSON.parse(localStorage.getItem('superheros')) || [];
 
 function searchSuperHero(){
-    const name = superHeroName.value;
+    const name = HeroName.value;
     superHeroData(name);
 }
 
