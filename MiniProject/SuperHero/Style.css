@@ -1,0 +1,17 @@
+.herocard{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 20px solid black;
+    margin: 20px;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.herocard img{
+    width: 150;
+    height: 150;
+    
+}
